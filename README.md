@@ -33,23 +33,6 @@
 
 ## About
 
-PhoneInfoga is one of the most advanced tools to scan international phone numbers. It allows you to first gather basic information such as country, area, carrier and line type, then use various techniques to try to find the VoIP provider or identify the owner. It works with a collection of scanners that must be configured in order for the tool to be effective. PhoneInfoga doesn't automate everything, it's just there to help investigating on phone numbers.
-
-## Current status
-
-This project is stable and production-ready.
-
-#### Demo instance termination
-
-The demo instance has been terminated on December 21th, 2023. It's been expensive to maintain this instance throughout the years given the number of requests it received (~20K/month), without bringing much value to users compared to using it locally. Use it locally with your own API keys for a better experience.
-
-## Features
-
-- Check if phone number exists
-- Gather basic information such as country, line type and carrier
-- OSINT footprinting using external APIs, phone books & search engines
-- Check for reputation reports, social media, disposable numbers and more
-- Use the graphical user interface to run scans from the browser
 - Programmatic usage with the [REST API](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/sundowndev/phoneinfoga/master/web/docs/swagger.yaml) and [Go modules](https://pkg.go.dev/github.com/sundowndev/phoneinfoga/v2)
 
 ## Anti-features
@@ -63,13 +46,9 @@ The demo instance has been terminated on December 21th, 2023. It's been expensiv
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsundowndev%2FPhoneInfoga.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsundowndev%2FPhoneInfoga?ref=badge_shield)
 
-This tool is licensed under the GNU General Public License v3.0.
 
 [Icon](https://www.flaticon.com/free-icon/fingerprint-search-symbol-of-secret-service-investigation_48838) made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>.
 
-## Support
-
-Support me by signing up to DigitalOcean using my link ($200 free credits)
 
 [![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%203.svg)](https://www.digitalocean.com/?refcode=31f5ef768eb3&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
